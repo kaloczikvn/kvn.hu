@@ -8,4 +8,4 @@ made_in: 2017
 made_with: Wordpress
 ---
 
-A WordPress site for the SZEngine Forumla Student team at Széchenyi István University. The main profile of the site was to be able to share news and the detailed presentations of the projects so far.
+This WordPress site was created for the SZEngine Formula Student team at Széchenyi István University to showcase news and detailed project presentations.

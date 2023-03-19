@@ -8,7 +8,7 @@ made_in: 2019
 made_with: Javascript
 ---
 
-I created this webapp to monitor the buses in the city Győr. On mobile, we can achieve PWA / app like experience by adding the page to the home screen.
+I had created this web app to monitor the buses in the city of Győr. On mobile devices, users can add the page to their home screen to achieve a PWA/app-like experience.
 
 [https://enykk.kvn.hu/](https://enykk.kvn.hu/)
 

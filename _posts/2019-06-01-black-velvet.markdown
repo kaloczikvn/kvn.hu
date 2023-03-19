@@ -7,10 +7,7 @@ image_large: /assets/img/card-blackvelvet-large.jpg
 made_in: 2019
 made_with: WordPress
 ---
-Wordpress and WooCommerce based e-commerce website for a local hair salon.
 
-<!--more-->
+I developed a Wordpress and WooCommerce-based e-commerce website for a local hair salon. The website enables customers to browse services, book appointments, and purchase hair products online.
 
-I created a custom theme for Wordpress and WooCommerce for "Black Velvet Fodrászat" in Győr. Their main goal was to sell hair and skin care products.
-
-Making and designing a basic e-commerce site is easy most of the time but I had a really great challenge with this one. The client wanted to create a system to diagnose hair problems and suggest products based on the information the user gave. It was a fun but hard experience.
+Making and designing a basic e-commerce site is usually easy, but I had a unique and challenging experience with this project. The client had a specific request to create a system that could diagnose hair problems and recommend products based on the user's input. Although it was a fun project, it presented significant technical and design challenges that required me to use my problem-solving skills.

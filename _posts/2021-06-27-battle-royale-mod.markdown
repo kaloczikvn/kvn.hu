@@ -9,9 +9,7 @@ made_with: ReactJS, Lua
 made_in: 2021
 ---
 
-Bf3: Battle Royale is a Battlefield 3 modification which aims to bring the last man standing game-mode to Bf3. I was a project lead on this mod.
-
-We had 5 programmers on the team for various tasks, some of the worked on the circle mechanism, some worked on the looting. I mostly worked on the gameplay and the UI.
+Bf3: Battle Royale was a Battlefield 3 modification project, for which I served as a project lead. Our goal was to introduce the last man standing game-mode to Bf3. Our team consisted of 5 programmers, each assigned to different tasks, such as developing the circle mechanism and looting. My main focus was on the gameplay and UI design.
 
 You can read more about the mod here:
 

@@ -8,12 +8,10 @@ made_in: 2021
 made_with: Jekyll
 ---
 
-A blog & landing page for the Bf3: Battle Royale mod.
-
-Bf3: Battle Royale is a Battlefield 3 modification which aims to bring the last man standing game-mode to Bf3. I was a project lead on this mod.
+I created a blog and landing page for the Bf3: Battle Royale mod, which is a Battlefield 3 modification that aims to bring the last man standing game-mode to Bf3. As a project lead on this mod, I was responsible for overseeing the development process, and contributed to the gameplay and UI aspects of the mod.
 
 You can watch the trailer here: [https://www.youtube.com/watch?v=O1yw5zJxUKE](https://www.youtube.com/watch?v=O1yw5zJxUKE)
 
-Sadly the project is on hold currently so we might not even release the website with the updated landing page, but you can visit the devblog here:
+Sadly, the project is currently on hold, so we may not even release the website with the updated landing page. However, you can still visit the devblog here:
 
 [https://bf3br.github.io/](https://bf3br.github.io/)

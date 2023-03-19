@@ -8,6 +8,6 @@ made_in: 2018
 made_with: Wordpress
 ---
 
-A custom-designed website for "Rábabrill Optika" in Csorna and Kapuvár. It was created using the WordPress framework. It has responsive design and it is based on Bootstrap 4.
+I created a custom-designed website for "Rábabrill Optika" in Csorna and Kapuvár using the WordPress framework. The site has a responsive design and is based on Bootstrap 4.
 
 [https://rababrilloptika.hu/](https://rababrilloptika.hu/)

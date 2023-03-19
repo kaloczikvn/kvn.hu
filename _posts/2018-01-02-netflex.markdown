@@ -8,7 +8,7 @@ made_in: 2018
 made_with: Javascript
 ---
 
-A project I used to lear / train CSS and Javascript. It outlines how I would design an online movie steaming interface.
+A project I worked on to learn/train CSS and Javascript. It demonstrated how I would design an online movie streaming interface.
 
 [https://kvn.hu/netflexproject/](https://kvn.hu/netflexproject/)
 

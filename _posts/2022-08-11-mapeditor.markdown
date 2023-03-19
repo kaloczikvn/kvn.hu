@@ -8,8 +8,6 @@ made_in: 2022
 made_with: VueJs
 ---
 
-Had the opportunity to work on VeniceEditor / MapEditor for Venice Unleashed. The UI was pretty much ready I just reworked the design of it and made some bugfixes along the way.
-
-You can see the original design on left and the remade one on the right on the header image.
+I had the opportunity to work on the VeniceEditor / MapEditor for Venice Unleashed. While the UI was mostly completed, I was able to rework the design and make some necessary bugfixes. The header image shows a comparison between the original design on the left and my remade version on the right.
 
 [https://github.com/BF3RM/MapEditor/](https://github.com/BF3RM/MapEditor/)
