@@ -63,6 +63,8 @@ section#home {
         align-items: center;
         justify-content: center;
         overflow: hidden;
+        background: transparent url("../img/bg.jpg") 50% 50% no-repeat;
+        background-size: cover;
 
         &::after {
             content: "";

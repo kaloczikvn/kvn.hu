@@ -10,6 +10,10 @@ const COLORS = [
 
 class App {
     constructor() {
+        if (window.innerWidth <= 1024) {
+            return;
+        }
+        
         this.canvas = document.createElement('canvas');
         this.parent = document.querySelector("#gradient_bg");
 
@@ -18,7 +22,7 @@ class App {
 
         this.pixelRatio = (window.devicePixelRatio > 1) ? 2 : 1;
 
-        this.totalParticles = 15;
+        this.totalParticles = 10;
         this.particles = [];
         this.maxRadius = 1500;
         this.minRadius = 800;
