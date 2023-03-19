@@ -1,0 +1,33 @@
+name: "kvn.hu"
+title: "kvn.hu"
+description: > # this means to ignore newlines until "show_excerpts:"
+  Kálóczi Kevin - full stack web development and design
+tagline: > # this means to ignore newlines until "show_excerpts:"
+  Kálóczi Kevin - full stack web development and design
+
+google_analytics: ""
+lang: "hu"
+
+url: "kvn.hu"
+
+author:
+  name: "Kálóczi Kevin"
+  email: kaloczi.kvn@gmail.com
+
+social:
+  name: "Kálóczi Kevin"
+  links:
+    - https://github.com/kaloczikvn
+
+show_excerpts: true
+date_format: "%Y.%m.%d."
+excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-spaceship
+
+sass:
+  style: compressed

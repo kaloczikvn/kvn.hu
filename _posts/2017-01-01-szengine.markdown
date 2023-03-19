@@ -1,0 +1,11 @@
+---
+layout: post
+title: "SZEngine"
+date: 2017-01-01 12:00:00 +0200
+image: /assets/img/card-szengine.jpg
+image_large: /assets/img/card-szengine-large.jpg
+made_in: 2017
+made_with: Wordpress
+---
+
+A WordPress site for the SZEngine Forumla Student team at Széchenyi István University. The main profile of the site was to be able to share news and the detailed presentations of the projects so far.

@@ -1,0 +1,171 @@
+---
+---
+
+.body-post {
+    footer {
+        max-width: 1766px;
+        margin: 0 auto;
+        padding: 5rem 0 2.5rem;
+    }
+}
+
+.post {
+    max-width: 1766px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    grid-template-areas:
+        "title title ."
+        "image image image"
+        "description description meta";
+
+    .title {
+        grid-area: title;
+        padding: 8rem 0 0;
+
+        h1 {
+            font-family: 'Idlewild', sans-serif;
+            font-size: 4.5rem;
+            line-height: 5rem;
+            font-weight: 900;
+        }
+
+        span {
+            display: block;
+            font-family: 'Idlewild', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 1rem .5rem;
+            opacity: .5;
+        }
+    }
+
+    .image {
+        grid-area: image;
+
+        img {
+            width: 100%;
+            max-height: 750px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            aspect-ratio: 2.35 / 1;
+        }
+    }
+
+    .description {
+        grid-area: description;
+
+        p {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-weight: 500;
+            margin: 0 0 1rem;
+        }
+    }
+
+    .meta {
+        grid-area: meta;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+
+        .meta-info {
+            &-head {
+                opacity: .8;
+                font-style: italic;
+                font-size: 1rem;
+            }
+
+            &-body {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+.body-blackvelvet-shop {
+    background: #f4f0f0;
+    color: #000;
+}
+
+.body-kollegiumi-studio {
+    background: #322c46;
+    color: #fff;
+}
+
+.body-bf3-reality-mod {
+    background: #272017;
+    color: #fff;
+}
+
+.body-bf3-battle-royale-website {
+    background: #222327;
+    color: #fff;
+}
+
+.body-mapeditor {
+    background: #222222;
+    color: #fff;
+}
+
+.body-bf3-battle-royale {
+    background: #36281f;
+    color: #fff;
+}
+
+.body-rababrill-optika {
+    background-color: #ffffff;
+    color: #2b65eb;
+}
+
+.body-szengine {
+    background-color: #ffffff;
+    color: #dd0f0f;
+}
+
+.body-netflex {
+    background-color: #061010;
+    color: #fff;
+}
+
+.body-buspass {
+    background-color: #fff;
+    color: #fec30d;
+}
+
+@media only screen and (max-width: 1024px) {
+    .post {
+        max-width: 85vw;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        grid-template-areas:
+            "title"
+            "image"
+            "description"
+            "meta";
+
+        .title {
+            span {
+                margin: 0 0 1rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+                line-height: 2.8rem;
+            }
+        }
+
+        .description {
+            p {
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
+        }
+    }
+
+    footer {
+        max-width: 85vw !important;
+    }
+}

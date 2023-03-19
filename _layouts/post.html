@@ -1,0 +1,52 @@
+{% assign content_array = page.content | split: site.excerpt_separator %}
+{% assign excerpt_only = content_array | first %}
+{% assign content_remainder = content_array | last %}
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body class="body-post body-{{ page.title | slugify: "latin" }}">
+    <main class="page-content" aria-label="Content">
+      {%- include header.html -%}
+      <div class="wrapper">
+        <section class="post">
+            <!--div class="post-content-image">
+              <img src="{{ page.image }}" alt="">
+              <div class="post-image-bg" style="background-image: url('{{ page.image }}');"></div>
+            </div-->
+            <div class="title">
+              <span>
+                <i class="las la-dot-circle"></i> {{ page.made_in }}
+              </span>
+              <h1>{{ page.title | escape }}</h1>
+            </div>
+            <div class="image">
+              <img src="{{ page.image_large }}" alt="">
+            </div>
+            <div class="description">
+              {{ content_remainder | remove_first: '</p>' }}
+            </div>
+            <div class="meta">
+              <div class="meta-info">
+                <div class="meta-info-head">
+                  Year
+                </div>
+                <div class="meta-info-body">
+                  {{ page.made_in }}
+                </div>
+              </div>
+              <div class="meta-info">
+                <div class="meta-info-head">
+                  With
+                </div>
+                <div class="meta-info-body">
+                  {{ page.made_with }}
+                </div>
+              </div>
+            </div>
+        </section>
+      </div>
+      {%- include footer.html -%}
+    </main>
+  </body>
+</html>

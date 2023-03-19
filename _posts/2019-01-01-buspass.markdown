@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Buspass"
+date: 2019-01-01 12:00:00 +0200
+image: /assets/img/card-buspass.jpg
+image_large: /assets/img/card-buspass-large.jpg
+made_in: 2019
+made_with: Javascript
+---
+
+I created this webapp to monitor the buses in the city Győr. On mobile, we can achieve PWA / app like experience by adding the page to the home screen.
+
+[https://enykk.kvn.hu/](https://enykk.kvn.hu/)
+
+[https://github.com/kaloczikvn/BusPass](https://github.com/kaloczikvn/BusPass)

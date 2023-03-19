@@ -1,0 +1,253 @@
+---
+---
+
+@font-face {
+    font-family: 'Idlewild';
+    src: url("../fonts/Idlewild-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Idlewild';
+    font-weight: 200;
+    src: url("../fonts/Idlewild-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Idlewild';
+    font-weight: 600;
+    src: url("../fonts/Idlewild-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body,
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'Idlewild', sans-serif;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+.h2, h2 {
+    font-size: 2rem;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+}
+
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.h6, h6 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: var(--primary);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+        padding-left: 1.3em;
+        margin-bottom: 7px;
+
+        &:before {
+            content: "\f105";
+            font-family: "Line Awesome Free";
+            font-weight: 900;
+            display: inline-block;
+            margin-left: -1.3em;
+            width: 1.3em;
+        }
+    }
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 0.65rem 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15ms ease;
+
+    &.btn-sm {
+        padding: 0.45rem 1.25rem;
+        font-size: 0.8rem;
+    }
+
+    &.btn-primary {
+        background: rgba(0, 0, 0, 0.45);
+        color: var(--primary);
+        border-color: var(--primary);
+
+        &:hover:not(.disabled) {
+            background-color: var(--primary);
+            color: #fff;
+        }
+    }
+
+    &.btn-secondary {
+        background: rgba(0, 0, 0, 0.45);
+        border-color: rgba(255, 255, 255, 0.7);
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    &:hover:not(.disabled) {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+/*
+.container {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*/
+.container {
+    width: calc(100% - 60px);
+    /*padding-right: 30px;
+    padding-left: 30px;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    max-width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 5rem 0 2.5rem;
+
+    .copyright {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        opacity: .7;
+    }
+}

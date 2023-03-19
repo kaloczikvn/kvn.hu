@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Netflex"
+date: 2018-01-02 12:00:00 +0200
+image: /assets/img/card-netflex.jpg
+image_large: /assets/img/card-netflex-large.jpg
+made_in: 2018
+made_with: Javascript
+---
+
+A project I used to lear / train CSS and Javascript. It outlines how I would design an online movie steaming interface.
+
+[https://kvn.hu/netflexproject/](https://kvn.hu/netflexproject/)
+
+[https://github.com/kaloczikvn/Netflex](https://github.com/kaloczikvn/Netflex)

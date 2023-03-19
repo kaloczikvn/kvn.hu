@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Bf3: Promod"
+date: 2021-03-01 12:00:00 +0200
+image: /assets/img/card-promod.jpg
+image_large: /assets/img/card-promod-large.jpg
+made_in: 2021
+made_with: ReactJS, Lua
+---
+
+My first mod for Venice Unleashed / Battlefield 3. For the game modifications you have to use Lua, and for the UI I ended up using ReactJS.
+
+[https://community.veniceunleashed.net/t/promod-the-competetive-bf3-experience/1143](https://community.veniceunleashed.net/t/promod-the-competetive-bf3-experience/1143)
+
+[https://github.com/kaloczikvn/kPM/](https://github.com/kaloczikvn/kPM/)
