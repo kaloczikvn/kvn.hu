@@ -22,6 +22,7 @@ social:
 show_excerpts: true
 date_format: "%Y.%m.%d."
 excerpt_separator: <!--more-->
+permalink: /:title
 
 plugins:
   - jekyll-feed
