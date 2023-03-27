@@ -4,18 +4,21 @@
 @font-face {
     font-family: 'Idlewild';
     src: url("../fonts/Idlewild-Medium.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Idlewild';
     font-weight: 200;
     src: url("../fonts/Idlewild-Thin.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Idlewild';
     font-weight: 600;
     src: url("../fonts/Idlewild-Bold.otf") format("opentype");
+    font-display: swap;
 }
 
 @font-face {
