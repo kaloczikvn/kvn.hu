@@ -32,6 +32,12 @@ class App {
         this.createParticles();
 
         window.requestAnimationFrame(this.animate.bind(this));
+
+        this.scrollElement = document.documentElement;
+        this.nav = document.querySelector('nav');
+    
+        window.addEventListener('scroll', this.scroll.bind(this), false);
+        this.scroll();
     }
 
     resize() {
@@ -73,6 +79,14 @@ class App {
         for (let i = 0; i < this.totalParticles; i++) {
             const item = this.particles[i];
             item.animate(this.ctx, this.stageWidth, this.stageHeight);
+        }
+    }
+
+    scroll() {
+        if (this.scrollElement.scrollTop >= 1) {
+            this.nav.classList.add('scrolled');
+        } else {
+            this.nav.classList.remove('scrolled');
         }
     }
 }
