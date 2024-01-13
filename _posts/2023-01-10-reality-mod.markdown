@@ -3,7 +3,6 @@ layout: post
 title: "Bf3: Reality mod"
 date: 2023-01-10 12:00:00 +0200
 image: /assets/img/card-rm.jpg
-image_large: /assets/img/fullscreen/rm.png
 made_in: 2023
 made_with: Jekyll
 ---

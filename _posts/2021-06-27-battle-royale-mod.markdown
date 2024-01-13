@@ -3,7 +3,6 @@ layout: post
 title: "Bf3: Battle Royale"
 date: 2021-06-27 12:00:00 +0200
 image: /assets/img/card-br.jpg
-image_large: /assets/img/card-br-large.jpg
 made_in: 2021
 made_with: ReactJS, Lua
 made_in: 2021

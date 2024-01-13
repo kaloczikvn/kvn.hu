@@ -3,7 +3,6 @@ layout: post
 title: "MapEditor"
 date: 2022-09-01 12:00:00 +0200
 image: /assets/img/card-mapeditor.jpg
-image_large: /assets/img/fullscreen/mapeditor.png
 made_in: 2022
 made_with: VueJs
 ---

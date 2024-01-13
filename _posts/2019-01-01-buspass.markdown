@@ -3,7 +3,6 @@ layout: post
 title: "Buspass"
 date: 2019-01-01 12:00:00 +0200
 image: /assets/img/card-buspass.jpg
-image_large: /assets/img/card-buspass-large.jpg
 made_in: 2019
 made_with: Javascript
 ---

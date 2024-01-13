@@ -2,89 +2,75 @@
 ---
 
 .body-post {
-    footer {
-        max-width: 1766px;
-        margin: 0 auto;
-        padding: 5rem 0 2.5rem;
-    }
+  .wrapper {
+    display: block;
+  }
+
+  footer {
+    max-width: 1766px;
+    margin: 0 auto;
+    padding: 5rem 0 2.5rem;
+  }
 }
 
 .post {
-    max-width: 1766px;
-    margin: 0 auto;
+  position: relative;
+  padding: 80px 40px 40px;
+  display: flex;
+  flex-flow: column;
+  gap: 40px;
+
+  .title {
+    color: var(--white);
+
+    h1 {
+      font-family: "Idlewild", sans-serif;
+      font-size: 3rem;
+      line-height: 3rem;
+      font-weight: 900;
+      margin: 0;
+    }
+  }
+
+  .description {
+    p {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      font-weight: 400;
+      margin: 0 0 1rem;
+    }
+  }
+
+  .meta {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5rem;
-    grid-template-areas:
-        "title title ."
-        "image image image"
-        "description description meta";
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
 
-    .title {
-        grid-area: title;
-        padding: 8rem 0 0;
+    .meta-info {
+      &-head {
+        opacity: 0.65;
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin-bottom: 5px;
+      }
 
-        h1 {
-            font-family: 'Idlewild', sans-serif;
-            font-size: 4.5rem;
-            line-height: 5rem;
-            font-weight: 900;
-        }
-
-        span {
-            display: block;
-            font-family: 'Idlewild', sans-serif;
-            font-size: 1rem;
-            font-weight: 600;
-            margin: 0 0 1rem .5rem;
-            opacity: .5;
-        }
+      &-body {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
     }
+  }
 
-    .image {
-        grid-area: image;
+  .image {
+    max-width: 100%;
 
-        img {
-            width: 100%;
-            max-height: 750px;
-            object-fit: cover;
-            border-radius: var(--border-radius);
-            aspect-ratio: 2.35 / 1;
-        }
+    img {
+      max-width: 100%;
     }
-
-    .description {
-        grid-area: description;
-
-        p {
-            font-size: 2rem;
-            line-height: 2.5rem;
-            font-weight: 500;
-            margin: 0 0 1rem;
-        }
-    }
-
-    .meta {
-        grid-area: meta;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 2rem;
-
-        .meta-info {
-            &-head {
-                opacity: .8;
-                font-style: italic;
-                font-size: 1rem;
-            }
-
-            &-body {
-                font-size: 1.5rem;
-                font-weight: 600;
-            }
-        }
-    }
+  }
 }
 
+/*
 .body-blackvelvet-shop {
     background: #f4f0f0;
     color: #000;
@@ -134,34 +120,32 @@
     background-color: #fff;
     color: #fec30d;
 }
+*/
 
 @media only screen and (max-width: 1024px) {
-    .post {
-        max-width: 85vw;
-        grid-template-columns: 1fr;
-        gap: 30px;
-        grid-template-areas:
-            "title"
-            "image"
-            "description"
-            "meta";
+  .post {
+    padding: 30px;
 
-        .title {
-            span {
-                margin: 0 0 1rem;
-            }
+    .title {
+      span {
+        margin: 0 0 1rem;
+      }
 
-            h1 {
-                font-size: 1.8rem;
-                line-height: 2.8rem;
-            }
-        }
-
-        .description {
-            p {
-                font-size: 1rem;
-                line-height: 1.5rem;
-            }
-        }
+      h1 {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+      }
     }
+
+    .meta {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .description {
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
 }

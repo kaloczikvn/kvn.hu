@@ -3,7 +3,6 @@ layout: post
 title: "Blackvelvet Shop"
 date: 2019-06-01 12:00:00 +0200
 image: /assets/img/card-blackvelvet.jpg
-image_large: /assets/img/card-blackvelvet-large.jpg
 made_in: 2019
 made_with: WordPress
 ---

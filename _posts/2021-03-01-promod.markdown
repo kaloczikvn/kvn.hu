@@ -3,7 +3,6 @@ layout: post
 title: "Bf3: Promod"
 date: 2021-03-01 12:00:00 +0200
 image: /assets/img/card-promod.jpg
-image_large: /assets/img/card-promod-large.jpg
 made_in: 2021
 made_with: ReactJS, Lua
 ---

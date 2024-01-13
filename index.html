@@ -6,67 +6,43 @@ permalink: /
 <nav>
   <h1 class="title">Kálóczi Kevin</h1>
   <p>Currently employed at "Different Fejlesztő Kft." and have over 5 years of industry experience. My expertise lies in frontend development, design, and interactive solutions.</p>
-  <a href="https://github.com/kaloczikvn/" target="_blank" class="github" title="Github">
-    <i class="lab la-github"></i>
-  </a>
+  <div class="socials">
+    <a href="https://github.com/kaloczikvn/" target="_blank" title="Github">
+      <i class="lab la-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/kaloczi-kvn/" target="_blank" title="LinkedIn">
+      <i class="lab la-linkedin"></i>
+    </a>
+  </div>
+  <div class="cv">
+    <a href="mailto:kaloczi.kvn@gmail.com" target="_blank" class="contact">
+      Get in touch
+    </a>
+  </div>
   <footer>
     <p class="copyright">© <script>document.write(Date().split` `[3])</script>, kvn.hu</p>
   </footer>
 </nav>
 <section id="content">
     <div class="projects">
-      <div class="projects-left">
         {% for post in site.posts %}
-          <a href="{{ post.url }}" class="card {{ post.title | slugify: "latin"  }}" data-full="/assets/img/fullscreen/rm.png">
-            {%- if post.image -%}
-            <div class="card-image">
-              <img src="{{ post.image }}" class="main-img" alt="" />
-              <img src="{{ post.image_large }}" class="full-img" alt="" />
-              <div class="overlay"></div>
-            </div>
-            {%- endif -%}
-            <div class="card-meta">
-              <span class="card-title">
-                {{ post.title }}
-              </span>
-              <span class="card-date">
-                <i class="las la-dot-circle"></i> {{ post.made_in }}
-              </span>
-            </div>
-          </a>
-        {% endfor %}
-      </div>
-      <div class="projects-right">
-      {% for post in site.posts %}
-        {% assign mod = forloop.index | modulo: 2 %}
-        {% if mod == 0 %}
           <a href="{{ post.url }}" class="card {{ post.title | slugify: "latin"  }}">
             {%- if post.image -%}
             <div class="card-image">
-              <img src="{{ post.image }}" alt="" />
+              <img src="{{ post.image }}" class="main-img" alt="" />
             </div>
             {%- endif -%}
             <div class="card-meta">
-              <span class="card-title">
+              <span class="card-meta-title">
                 {{ post.title }}
               </span>
-              <span class="card-date">
-                <i class="las la-dot-circle"></i> {{ post.made_in }}
+              <span class="card-meta-date">
+                {{ post.made_in }} <i class="las la-minus"></i> {{ post.made_with }} 
               </span>
             </div>
           </a>
-          {% endif %}
         {% endfor %}
       </div>
-    </div>
-    <div>
-      <h2>Kálóczi Kevin.</h2>
-      <p>Hungary - Győr</p>
-      <p>I am currently employed at "Different Fejlesztő Kft." and have over 5 years of industry experience. My expertise lies in frontend development, design, and interactive solutions.</p>
-      <p class="lead">Would you like to get in touch regarding a project, collaboration, or just to say a friendly hello?</p>
-      <div class="links">
-        <a href="mailto:kaloczi.kvn@gmail.com">Email <i class="las la-long-arrow-alt-right"></i></a>
-        <a href="https://github.com/kaloczikvn/" target="_blank">GitHub <i class="las la-long-arrow-alt-right"></i></a>
-      </div>
+      <div id="loader">Loading</div>
     </div>
 </section>

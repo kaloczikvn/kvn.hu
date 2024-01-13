@@ -3,7 +3,6 @@ layout: post
 title: "Bf3: Battle Royale website"
 date: 2021-06-27 12:00:00 +0200
 image: /assets/img/card-br-web.jpg
-image_large: /assets/img/card-br-web-large.jpg
 made_in: 2021
 made_with: Jekyll
 ---

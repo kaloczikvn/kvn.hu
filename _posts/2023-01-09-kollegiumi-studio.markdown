@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Kollégiumi Stúdió"
-date: 2022-05-04 12:00:00 +0200
+date: 2023-01-09 12:00:00 +0200
 image: /assets/img/card-studio.jpg
-image_large: /assets/img/card-studio-large.jpg
 made_in: 2022
 made_with: React
 ---

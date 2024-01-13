@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Marne"
+date: 2024-01-10 12:00:00 +0200
+image: /assets/img/card-marne.jpg
+made_in: 2024
+made_with: React
+---
+
+I built the redesigned website for the Marne project. It's a static website that is built using React, Vite and SASS.
+
+[https://marne.io/](https://marne.io/)
